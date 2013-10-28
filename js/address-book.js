@@ -16,8 +16,9 @@
 */
 
 $(function(){
-    render(Employees.entries);
     sortObjArray(Employees.entries, 'last');
+    render(Employees.entries);
+
 
     $('.sort-ui .btn').click(function(){
         var sortBtn = $(this);
